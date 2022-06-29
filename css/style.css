@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(hsla(39, 69%, 49%, 1), hsla(42, 68%, 49%, 1),hsla(44, 67%, 50%, 1),hsla(47, 67%, 51%, 1),hsla(50, 67%, 51%, 1),hsla(52, 68%, 52%, 1),hsla(55, 68%, 52%, 1));
+    border: solid 3px black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+table{
+    background-color: palevioletred;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+    margin: auto;
+}
+
+.button{
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    border: none;
+    font-size: 30px;
+    height: 50%;
+    width: 80px;
+    outline: none;
+    cursor: pointer;
+}
+.button:active{
+    background-color: rgba(0, 0, 0, 0.534);
+    box-shadow: inset 0px 0px 0px #c1c1c1;
+}
+.displaybox{
+    width: 99%;
+    height: 50%;
+    background-color: white;
+    border: solid black 0.5px;
+    border-radius: 5px;
+    font-size: 22px;
+    outline: none;
+}
